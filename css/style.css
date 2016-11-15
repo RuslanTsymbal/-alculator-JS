@@ -1,0 +1,74 @@
+#wrapper {
+    margin-top: 5%;
+}
+
+#myVal {
+    width: 100%;
+}
+
+#calk-left{
+    width: 60%;
+    overflow: hidden;
+    float: left;
+}
+
+#calc-top {
+    margin-bottom: 2%;
+}
+.num,
+#equally{
+    width: 23%;
+    background-color: darkgrey;
+    margin: 2px;
+    float: left;
+    text-align: center;
+    height: 36px;
+    padding-top: 4%;
+}
+
+#equally {
+    font-size: 3rem;
+    padding-top: 0;
+    padding-bottom: 4%;
+    cursor: pointer;
+}
+
+#equally:hover {
+    background-color: blue;
+}
+
+.num:hover {
+    background-color: red;
+    cursor:pointer;
+}
+
+#calc-right {
+    overflow: hidden;
+}
+
+#plus,#minus,#divide,
+#multiply, #value,
+#percent, #root, #degree,
+#factorial {
+    background-color: darkgrey;
+    margin: 2px;
+    float: left;
+    width: 31%;
+    height: 46px;
+    padding-top: 4%;
+    text-align: center;
+    cursor:pointer;
+}
+
+#plus:hover,#minus:hover,#divide:hover,
+#multiply:hover, #value:hover,
+#percent:hover, #root:hover, #degree:hover,
+#factorial:hover {
+    background-color: red;
+}
+
+textarea#display {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
